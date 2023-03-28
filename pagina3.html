@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Formulario</title>
+        <link rel="stylesheet" href="./style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <nav>
+            <!-- Menu de navegación entre las páginas -->
+            <ul id="menu">
+                <li><a href="index.html">Página principal</a></li>
+                <li><a href="pagina1.html">Liga Española</a></li>
+                <li><a href="pagina2.html">Premier League</a></li>
+                <li><a href="pagina3.html">Formulario</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>FORMULARIO</h1>
+        </header>
+        <!-- En esta sección hablaremos de los mejores jugadores de la historia del fútbol -->
+        <section>
+            <h2 id="Mjr">Mejores jugadores de la historia</h2>
+            <p>Antes de realizar el formulario vamos a ver quienes son los mejores jugadores de la historia del futbol,
+                que luego en el mismo habra una pregunta sobre esto.</p>
+            <div class=" column column1">
+                <div class="caja5 ">
+                    <div>
+                        <img class="imagen6" src="https://media.tycsports.com/files/2022/10/17/493857/maradona-con-el-balon-de-oro_1440x810_wmk.webp?v=1" alt="Maradona" title="Maradona" >
+                    </div>
+                    <p><span class="jugador">Diego Armando Maradona</span></p>
+                </div>
+                <div class="caja6 ">
+                    <div>
+                        <img class="imagen7" src="https://static.dw.com/image/61527609_303.jpg" alt="Pelé" title="Pelé">
+                    </div>
+                    <p><span class="jugador">Pele</span></p>
+                </div>
+            </div>
+            <div class=" column column2">
+                <div class="caja7 ">
+                    <div>
+                        <img class="imagen8" src="https://estaticos-cdn.prensaiberica.es/clip/71153cbb-ae8c-44b9-80d5-67cd0d5d76d9_16-9-discover-aspect-ratio_default_0.jpg" alt="Cristiano Ronaldo" title="Cristiano Ronaldo">
+                    </div>
+                    <p><span class="jugador">Cristiano Ronaldo</span></p>
+                </div>
+                <div class="caja8 ">
+                    <div>
+                        <img class="imagen9" src="https://static.dw.com/image/64142948_303.jpg" alt="Lionel Messi" title="Lionel Messi">
+                    </div>
+                    <p><span class="jugador">Lionel Messi</span></p>
+                </div>
+            </div>
+        </section>
+        <!-- En esta sección haremos un formulario -->
+        <section>
+            <h3>Por favor, rellena el siguiente formulario:</h3>
+            <form  class="Formu" action="enviado.html" method="get">
+            <fieldset>
+                <ul class="lista1">
+                    <li>
+                        <label for="nombre">Escribe tu Nombre:</label>
+                        <input type="text" id="name">
+                    </li>
+                    <li>
+                        <label for="apellidos">Escribe tus apellidos:</label>
+                        <input type="text" id="apellidos">
+                    </li>
+                    <li>
+                        <label for="edad">Escribe tu edad:</label>
+                        <input type="text" id="edad">
+                    </li>
+                    <li>
+                        <label for="gusto">¿Cuanto te gusta el fútbol?:</label>
+                        <select id="seleccion" name="area" required>
+                            <option value="Selecciona">Selecciona</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="nombreequipo">Escribe tu equipo favorito:</label>
+                        <input type="text" id="equipo">
+                    </li>
+                    <li>
+                        <label for="jugador">¿A quien consideras el mejor jugador de la historia?</label>
+                        <select id="seleccion" name="area" required>
+                            <option value="Selecciona">Selecciona</option>
+                            <option value="Maradona">Maradona</option>
+                            <option value="Pele">Pele</option>
+                            <option value="Cristiano Ronaldo">Cristiano Ronaldo</option>
+                            <option value="Messi">Messi</option>
+                        </select>
+                    </li>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </ul>
+            </fieldset>
+            </form>
+        </section>
+        <!-- En la parte inferior de esta página web habla un logo de ironhack y un menu de navegación de paginas -->
+        <footer>
+            <div>
+                <img class="imageniron" src="https://www.aial.es/wp-content/uploads/2018/11/Logo-Ironhack.jpg" alt="Logo iron" title="Logo iron">
+            </div>
+            <p>© 2023 - Todos los derechos reservados</p>
+            <p> Para mas información escriba un correo a meencantaelfutbol@gmail.com</p>
+            <a href="index.html">Página principal</a>
+            <a href="pagina1.html">Liga Española</a>
+            <a href="pagina2.html">Premier League</a>
+            <a href="pagina3.html">Formulario</a>
+        </footer>
+    </body>
+
+</html>
